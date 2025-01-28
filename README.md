@@ -1,8 +1,13 @@
-### Ollama model opensource 
+# DeepSeek Model importing
 
-Download from official website and choose the model you want to use 
+## 1) Always use a virtual environment for the repository
+Steps: (In the Command line)
+- !python3.13 -m venv .venv
+- source .venv/bin/activate
+(Download all the requirements given in the requirements.txt file to import deepseek model using langchain)
 
-for e.g. for deepseek model, run the command in the terminal
+## 2) Download Ollama for windows/mac from the official website and choose the model you want to use 
+For the deepseek model, run the command in the terminal
 $ ollama run deepseek-r1:1.5b
 
 To list all the models, run the command
