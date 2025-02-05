@@ -1,4 +1,5 @@
 langchain_openai
+langchain-ollama
 langchain_core
 python_dotenv
 streamlit
@@ -11,3 +12,5 @@ bs4
 pypdf
 faiss-cpu
 ipykernel
+pinecone
+weaviate-client
