@@ -14,3 +14,7 @@ faiss-cpu
 ipykernel
 pinecone
 weaviate-client
+wikipedia
+arxiv
+langchainhub
+transformers
