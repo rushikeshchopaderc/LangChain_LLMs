@@ -29,6 +29,9 @@ gemma= Ollama(model='gemma2:2b')
 llama=Ollama(model="llama3.2:latest")
 output_parser=StrOutputParser()   # Displays the output in string format
 
+add_routes(app, 
+           deepseek,
+           path='/model')
 
 ### Prompt making
 prompt=ChatPromptTemplate([
@@ -55,5 +58,6 @@ add_routes(
 )
 
 if __name__=='__main__':
-    uvicorn.run(app, host='localhost', port=8501)
+    uvicorn.run(app, host='localhost', port=8000)
 
+## Command to run the application
