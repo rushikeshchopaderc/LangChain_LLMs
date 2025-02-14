@@ -5,6 +5,7 @@ Steps: (In the Command line)
 - !python3.13 -m venv .venv
 - source .venv/bin/activate
 (Download all the requirements given in the requirements.txt file to import deepseek model using langchain)
+- deactivate (This will deactivate the present virtual environment and shift back to the default environment)
 
 ## 2) Maintain an .env file to save the API credentials obtained from Langsmith website
 LANGSMITH_TRACING="true"
